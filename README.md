@@ -5,10 +5,11 @@ Implementing term weighting scheme for measuring query-document similarity by mo
 
 This repository contains the code for an IR system in Lucene Framework developed for comparing the term weighting scheme performance. The system indexes and searches through a collection of documents using Apache Lucene. It has been developed for the trec678rb document collection. The indexing process accommodates multiple tag fields within each document, and each file can contain multiple documents marked by `<doc>` tags.
 
-## Author
+## Maintainer
 **Name**: S. Chatterjee    
 **Github**: [sandeepchatterjee66](https://github.com/SandeepChatterjee66)
 **Affil**: Indian Statistical Institute, Kolkata, India  
+**Based on**: Jiaul H. Paik, Dept CSE, IIT KGP, India
 
 ## Steps to Run
 
@@ -99,6 +100,8 @@ less $RESULTS_PATH
 trec_eval/trec_eval -q $QRELS_PATH $RESULTS_PATH > $OUTPUT_PATH
 cat $OUTPUT_PATH
 ```
+
+![Screenshot](/mcs2318-screenshot-10.png "Step-by-step manual running of the Retrieval System")
 
 ## References
   - Parameterized Decay Model for Information Retrieval, Jiaul H. Paik , https://ir.webis.de/anthology/2016.tist_journal-ir0anthology0volumeA7A3.1/
