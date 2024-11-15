@@ -1,4 +1,7 @@
 # Retrieval-System-Lucene
+A very very efficient search engine which can intelligently rank based on novel term weighting scheme, and with this implementation it can scale for large data very well with parallelized map-reduce paradigm. 
+
+# Objective
 Implementing term weighting scheme for measuring query-document similarity by modeling the dependency between occurrences of a term. It uses a parameterized decay function to decrease the information content of subsequent occurrences. Evaluated on various web collections, it outperforms several known retrieval models, including strong TF-IDF models
 
 # Information Retrieval System
